@@ -1,0 +1,66 @@
+[
+    {
+        "model": "taskapp.shop",
+        "pk": 1,
+        "fields": {
+            "name": "Tech Gadgets",
+            "owner": "John Doe"
+        }
+    },
+    {
+        "model": "taskapp.shop",
+        "pk": 2,
+        "fields": {
+            "name": "Home Essentials",
+            "owner": "Jane Smith"
+        }
+    },
+    {
+        "model": "taskapp.listing",
+        "pk": 1,
+        "fields": {
+            "shop": 1,
+            "title": "Smartphone",
+            "description": "Latest model with high-end features.",
+            "price": "699.99",
+            "created_at": "2023-01-01T00:00:00Z",
+            "updated_at": "2023-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "taskapp.listing",
+        "pk": 2,
+        "fields": {
+            "shop": 1,
+            "title": "Laptop",
+            "description": "Lightweight and powerful, perfect for work and play.",
+            "price": "1299.99",
+            "created_at": "2023-01-01T00:00:00Z",
+            "updated_at": "2023-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "taskapp.listing",
+        "pk": 3,
+        "fields": {
+            "shop": 2,
+            "title": "Vacuum Cleaner",
+            "description": "High suction power with various attachments.",
+            "price": "299.99",
+            "created_at": "2023-01-01T00:00:00Z",
+            "updated_at": "2023-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "taskapp.listing",
+        "pk": 4,
+        "fields": {
+            "shop": 2,
+            "title": "Blender",
+            "description": "Perfect for making smoothies and soups.",
+            "price": "49.99",
+            "created_at": "2023-01-01T00:00:00Z",
+            "updated_at": "2023-01-01T00:00:00Z"
+        }
+    }
+]
